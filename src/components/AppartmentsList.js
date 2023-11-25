@@ -10,6 +10,10 @@ import Appartment from './Appartment';
 
 const AppartmentList = () => {
   const { appartments, loading } = useContext(HouseContext);
+  const handleClick = () => {
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
+  };
 
   if (loading) {
     return (
@@ -31,7 +35,7 @@ const AppartmentList = () => {
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-14'>
           {appartments.map((appartment, index) => {
             return (
-              <Link to={`/property/${appartment.id}`} key={index}>
+              <Link  to={`/property/${appartment.id}`} key={index} onClick={handleClick}>
                 <Appartment appartment={appartment} />
               </Link>
             );
