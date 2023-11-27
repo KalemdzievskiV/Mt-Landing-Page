@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from '../assets/Main.jpg';
+import { Button } from '@mui/material';
 
 const Banner = () => {
   const randomText = "MT Center Squaire";
