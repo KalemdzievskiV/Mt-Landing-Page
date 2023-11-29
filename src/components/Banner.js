@@ -1,13 +1,13 @@
 import React from 'react';
-import Image from '../assets/Main.jpg';
-import { Button } from '@mui/material';
+import Image from '../assets/Mainn1.jpg';
+import { Button, Paper, Typography } from '@mui/material';
 
 const Banner = () => {
   const randomText = "MT Center Squaire";
   const paragraphText = "Discover luxurious apartments for your next stay.";
 
   return (
-    <div className="relative h-screen">
+    <div className="relative h-screen mb-4">
       <img
         src={Image}
         alt="Background"

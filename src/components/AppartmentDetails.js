@@ -53,7 +53,7 @@ const AppartmentDetails = () => {
   ];
 
   return (
-    <Paper className="container mx-auto min-h-[800px] mb-14 p-8">
+    <Paper className="container mx-auto min-h-[800px] mb-14 p-7 mt-3">
       <Grid
         container
         justifyContent="space-between"

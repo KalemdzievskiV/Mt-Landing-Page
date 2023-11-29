@@ -17,13 +17,13 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/MtLogo.jpg";
 
 const logoStyles = {
-  maxHeight: "60px", // Adjust the maxHeight as needed
+  maxHeight: "50px", // Adjust the maxHeight as needed
   mr: 2,
   display: { xs: "none", md: "flex" },
 
 };
 const logoStyles1 = {
-  maxHeight: "60px", // Adjust the maxHeight as needed
+  maxHeight: "50px", // Adjust the maxHeight as needed
   mr: 2,
   display: { xs: "flex", md: "none" },
 
